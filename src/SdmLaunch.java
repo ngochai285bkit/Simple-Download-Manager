@@ -1,3 +1,4 @@
+import ui.MainUI;
 import ui.SdmSplassScreen;
 
 public class SdmLaunch {
@@ -9,6 +10,6 @@ public class SdmLaunch {
 
     private void launch() {
         new SdmSplassScreen(splashDuration).showSplash();
-        System.exit(0);
+        new MainUI("Simple Download Manager");
     }
 }
